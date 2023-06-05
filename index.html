@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <title>Practica 7</title>
+    <link rel="stylesheet" href="css/problemaStem.css"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+    <script src="js/calcularStem.js"></script>
+</head>
+<body>
+  <section class="wrapper">
+    <header>
+      <h1 class="logo"><a href="stem.html">CiTIM</a></h1>
+      
+    </header>
+    <section id="contenedor">
+      <section  class="problema">
+        <h2>Problema: Cálcular la masa de la Nave</h2>
+        <p>Descripción:</p>
+        <p>Una nave de aterrizaje se aproxima a la
+          superficie de Calixto, uno de los satélites (luna)
+          de Júpiter, si el motor del cohete le imprime un
+          empuje hacia arriba de 3260 N, la nave
+          descendería a velocidad constante,
+          considerando que Calixto no tuviera atmósfera.
+          Si el empuje hacia arriba es de 2200 N, la nave
+          aceleraría hacia abajo a 0,390 m/s 2 . <br>
+        </p>
+      </section>
+      <section  class="esquemaProblema">
+        <h2>Esquema</h2>
+        <center>
+        <img class="imgProblema" src="images/gg.jpeg">
+        </center>
+      </section>
+      <section class="formulas">
+        <h2>Fórmulas</h2>
+        m= mg-F2/a<br>
+      </section>
+      <section class="datos">
+        <h2>Datos:</h2>
+          empuje= 2200N <br>
+          aceleracion= 0.390 m/s^2
+      </section>
+      <section class="calculos">
+        <h2>Solución</h2>
+        <p>¿Cual es su masa?<br>
+        masa=(3260-2200)N /0.39 m/s^2<br>
+        <button onclick="calcula_masa();">Presiona para calcular</button>
+      </section>
+      <section class="resultado">
+        <h2>Resultado:</h2>
+        <div id="resultadoA"></div>
+      </section>
+    </section>
+    <footer class="pie">
+     Creative Commons versión 3.0 SciSoft 2023
+    </footer>
+  </section>
+</body>
+</html>
